@@ -50,7 +50,7 @@ let miaf_Yapici = (this && this.miaf_Yapici) || function (thisArg, komutGovdesi)
         }; 
     }
     function olusturucuAdim(komutlar) {
-        if (key1) throw new TypeError("Generator is already executing.");
+        if (key1) throw new TypeError("Generator/oluşturucu çalışıyor!");
         while (miafObject) 
         try {
             if (key1 = 1, key2 && (key3 = komutlar[0] & 2 ? key2["return"] : komutlar[0] ? key2["throw"] || ((key3 = key2["return"]) && key3.call(key2), 0) : key2.next) && !(key3 = key3.call(key2, komutlar[1])).done) return key3;
